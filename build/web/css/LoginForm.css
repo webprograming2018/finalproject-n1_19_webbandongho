@@ -1,0 +1,209 @@
+﻿body{
+   margin: 0;
+}
+
+
+.hinh {
+   font-size: 16px;
+   margin-right: 50px;
+}
+
+
+
+ol, ul {
+    list-style: none;
+    margin-left:10%;
+    padding: 0px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* start editing from here */
+a {
+    text-decoration: underline;
+}
+
+    a:hover {
+        color: darkblue;
+    }
+
+.txt-rt {
+    text-align: right;
+}
+/* text align right */
+.txt-lt {
+    text-align: left;
+}
+/* text align left */
+.txt-center {
+    text-align: center;
+    /*-- W3Layouts --*/
+}
+/* text align center */
+.float-rt {
+    float: right;
+}
+/* float right */
+.float-lt {
+    float: left;
+}
+/* float left */
+.clear {
+    clear: both;
+}
+/* clear float */
+.pos-relative {
+    position: relative;
+}
+/* Position Relative */
+.pos-absolute {
+    position: absolute;
+}
+/* Position Absolute */
+.vertical-base {
+    vertical-align: baseline;
+}
+/* vertical align baseline */
+.vertical-top {
+    vertical-align: top;
+}
+
+
+body {
+    font-family: 'Sirin Stencil', cursive;
+}
+
+input::-webkit-input-placeholder {
+    color: gray !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: gray !important;
+}
+
+
+
+/* Header */
+.large-header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.demo-1 .large-header {
+    background-color: white;
+    background-position: center bottom;
+}
+
+
+/* Header */
+.main-agileits {
+    width: 45%;
+    margin: 0 auto;
+    
+    border-radius: 20px;
+}
+
+
+
+.form-agile h2 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+
+.form-agile {
+    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
+    box-shadow: 0px 35px 44px -22px #1f181b;
+    padding: 45px 40px;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-sub {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .form-sub input[type="text"], input[type="password"] {
+        outline: none;
+        font-size: 15px;
+        padding: 15px 40px 15px 10px;
+        letter-spacing: 2px;
+        width: 87%;
+        border: none;
+        border: 1px solid gray;
+        -webkit-appearance: none;
+        margin-bottom: 10px;
+
+        font-family: 'Sirin Stencil', cursive;
+    }
+      
+        input[type="submit"] {
+            background-color: grey;
+            display: block;
+            margin: 0 auto;
+            border: none;
+            cursor: pointer;
+            padding: 7px 35px;
+            font-size: 16px;
+            margin-top: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Sirin Stencil', cursive;
+            transition: 0.3s all;
+            -webkit-transition: 0.3s all;
+            -moz-transition: 0.3s all;
+            -o-transition: 0.3s all;
+            -ms-transition: 0.3s all;
+        }
+
+    input[type="submit"]:hover {
+        background-color: darkblue;
+        transition: 0.3s all;
+        -webkit-transition: 0.3s all;
+        -moz-transition: 0.3s all;
+        -o-transition: 0.3s all;
+        -ms-transition: 0.3s all;
+    }
+
+.p-bottom-ls {
+    font-size: 16px;
+    margin-top: 0em;
+    text-align: center;
+    text-transform: none;
+    float: left;
+}
+
+.p-bottom-ls1 {
+    color:black;
+    font-size: 16px;
+    margin-top: 0em;
+    text-align: center;
+    text-transform: none;
+    float: right;
+}
+
+    .p-bottom-ls a, .p-bottom-ls1 a {
+        outline: none;
+        text-decoration: none;
+    }
